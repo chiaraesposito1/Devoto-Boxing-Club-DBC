@@ -78,7 +78,7 @@
     .columna1{
         width:100px;
         height: 270px;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(/asetss/img/boxeo-recreativo.jpg);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(../asetss/img/boxeo-recreativo.jpg);
         object-fit: cover;
         background-position: center;
         background-size: 100%;
@@ -87,7 +87,7 @@
     .columna2{
         width:100px;
         height: 270px;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(/asetss/img/boxeo-avanzado.jpg);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(../asetss/img/boxeo-avanzado.jpg);
         background-position: center;
         object-fit: cover;
         background-size: 100%;
@@ -96,7 +96,7 @@
     .columna3{
         width:400px;
         height: 270px;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.507)), url(/asetss/img/boxeo-infantil\ \(1\).jpg);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.507)), url(../asetss/img/boxeo-infantil\ \(1\).jpg);
         object-fit: cover;
         background-position: center;
         background-size: 100%;
@@ -105,7 +105,7 @@
     .columna4{
         width:400px;
         height: 270px;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(/asetss/img/funcional.png);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(../asetss/img/funcional.png);
         object-fit: cover;
         background-position: center;
         background-size: 100%;
@@ -151,7 +151,7 @@
     }
 }
 .flyer{
-    background-image: url(/asetss/img/flyer1.jpg);
+    background-image: url(../asetss/img/flyer1.jpg);
     background-position: center;
     background-size: 100%;
     height:60vh;
@@ -236,7 +236,7 @@
     }}
 }
 .flyer2{
-    background-image: url(/asetss/img/flyer-2.jpg);
+    background-image: url(../asetss/img/flyer-2.jpg);
     background-position: center;
     background-size: 100%;
     height:70vh;
