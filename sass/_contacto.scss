@@ -1,0 +1,30 @@
+.columna-contacto1{
+    width:600px;
+    .p-contacto{
+        width:100%;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        line-height: 25px;
+        padding:10px 0px;
+    }
+}
+.columna-contacto{
+    width:300px;
+    height:400px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.705) ), url(../asetss/img/map.png);
+    margin:40px;
+    padding-left: 30px;
+
+    li{
+        list-style: none;
+        padding:10px;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        color:white;
+    }
+    h2{
+        color: white;
+    }
+}

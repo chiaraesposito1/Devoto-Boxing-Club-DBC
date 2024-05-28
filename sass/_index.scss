@@ -1,0 +1,294 @@
+.portada{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.377) );
+    position: relative;
+
+    video{
+        width:100%;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        bottom:0;
+        z-index: -1;
+    }
+}
+.contenido{
+    position: absolute;
+    color:rgb(255, 255, 255);
+    padding-left: 40px;
+    width: 90%;
+    transform: translateY(5%);
+    
+    .title-portada{
+        font-family: "Oswald", sans-serif;
+        width: 45%;
+        font-size: 5rem;
+        letter-spacing: 1px;
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+    .text-portada{
+        width:50%;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 30px;
+    }
+}
+.capa{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.nosotros{
+    padding: 40px 10px;
+    margin: 10px 10px 40px;
+    
+    .title-nosotros {
+        letter-spacing: 1px;
+        color:rgb(0, 0, 0);
+        font-size: 4rem;
+        width:40%;
+        padding: 10px 40px;
+        margin-left: 20px;
+    }
+    .col-texto{
+        width: 150px;
+        height: 270px;
+        margin: 10px 20px 40px 10px;
+
+        .text-nosotros{
+            letter-spacing: 1px;
+            color:rgb(0, 0, 0);
+            font-family: "Roboto", sans-serif;
+            line-height: 30px;
+            font-weight: 300;
+            font-style: normal;
+            text-align: justify;
+        }}
+}
+.caja-boxeo{
+    margin: 60px 30px 30px;
+    padding:60px 30px 30px;
+
+    .columna1{
+        width:100px;
+        height: 270px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(/asetss/img/boxeo-recreativo.jpg);
+        object-fit: cover;
+        background-position: center;
+        background-size: 100%;
+        margin: 10px 10px 20px 50px;
+    }
+    .columna2{
+        width:100px;
+        height: 270px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(/asetss/img/boxeo-avanzado.jpg);
+        background-position: center;
+        object-fit: cover;
+        background-size: 100%;
+        margin: 10px 50px 20px 10px;
+    }
+    .columna3{
+        width:400px;
+        height: 270px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.507)), url(/asetss/img/boxeo-infantil\ \(1\).jpg);
+        object-fit: cover;
+        background-position: center;
+        background-size: 100%;
+        margin: 10px 10px 30px 50px;
+    }
+    .columna4{
+        width:400px;
+        height: 270px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(/asetss/img/funcional.png);
+        object-fit: cover;
+        background-position: center;
+        background-size: 100%;
+        margin: 10px 50px 30px 10px;
+    }
+    .a-servicios{
+        text-decoration: none;
+    }
+    .title-boxeo{
+        color:white;
+        letter-spacing: 1px;
+        font-size: 2rem;
+        transform: translateY(360%);
+        margin: 10px 20px;
+
+    }
+    .line{
+        width:100px;
+        margin: 50px 0px;
+        padding: 10px 0px;
+    }
+}
+.valores{
+    padding: 0px 30px ;
+    margin: 30px 20px ;
+    width: 300px;
+    .icon-valores{
+        width:100px;
+        height: 100px;
+    }
+    .title-valores{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        padding: 10px 0 5px;
+        color:#060630;
+    }
+    .texto-valores{
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        line-height: 23px;
+        font-style: normal;
+        font-family: "Roboto", sans-serif;
+        color:black;
+    }
+}
+.flyer{
+    background-image: url(/asetss/img/flyer1.jpg);
+    background-position: center;
+    background-size: 100%;
+    height:60vh;
+    object-fit: cover;
+    width: 100%;
+    margin:80px 0 30px;
+
+    .fondo-blur{
+        backdrop-filter: blur(2px);
+        background-color: rgba(0, 0, 0, 0.493);
+        width:45%;
+        height:60vh;
+    }
+    .title-flyer{
+        font-size: 3.5rem;
+        width:90%;
+        letter-spacing: 1px;
+        color:white;
+        padding: 40px 40px 10px;
+        margin: 30px;
+    }
+    .btn-flyer{
+        color:white;
+        letter-spacing: 1px;
+        font-family: "Roboto", sans-serif;
+        margin: 10px 60px;
+        padding: 10px 30px;
+        text-decoration: none;
+        background-color: rgb(6, 6, 48);
+        border-radius: 20px;
+
+        &:hover{
+            background-color: white;
+            color: rgb(6, 6, 48);
+            font-weight: 600;
+        }}
+}
+.galeria{
+    margin: 50px;
+    padding-top: 30px;
+
+    .img-galeria{
+        width:350px;
+        height: 260px;
+        padding:10px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    .btn-galeria{
+        color:white;
+        background-color: #060630;
+        padding:10px 30px;
+        text-decoration: none;
+        border-radius: 20px;
+        letter-spacing: 1px;
+            &:hover{
+                border: 2px solid #060630;
+                color:#060630;
+                background-color: #06063000;
+            }}
+}
+.linea{
+    margin-left: 20px;
+     height: 42vh;
+     border-right: 2px solid #060630;
+}
+.valores2{
+    width:100%;
+    padding:10px;
+    text-align: left;
+
+    .title-valores2{
+        width:500px;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        color:#060630;
+        text-align: left; 
+        .icon-valores2{
+            width:100px;
+            height: 100px;
+            margin: 0px 20px 0px 20px;
+    }}
+}
+.flyer2{
+    background-image: url(/asetss/img/flyer-2.jpg);
+    background-position: center;
+    background-size: 100%;
+    height:70vh;
+    object-fit: cover;
+    width: 100%;
+    margin:80px 0 30px;
+
+    .fondo-blur2{
+        backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.295);
+        width:40%;
+        height:70vh;
+
+    .title-flyer2{
+        font-size: 3.5rem;
+        width: 85%;
+        letter-spacing: 1px;
+        color:white;
+        padding: 20px 40px;
+    }
+    .text-flyer2{
+        font-family: "Roboto", sans-serif;
+        color:white;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0px 40px;
+        line-height: 25px;
+        width:90%;
+    }}
+}
+.title-contacto{
+    color:black;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  .text-contacto{
+      color:rgba(0, 0, 0, 0.514);
+      padding-top: 10px;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      width:90%;
+      font-family: "Roboto", sans-serif;
+  }
+  .form-relleno{
+      width:400px;
+      height: 45px;
+      padding:10px;
+      font-family: "Roboto", sans-serif;
+      letter-spacing: 1px;
+      font-size: 0.8rem;
+      border: 1px solid rgba(0, 0, 0, 0.514);
+      border-radius: 5px;
+  }

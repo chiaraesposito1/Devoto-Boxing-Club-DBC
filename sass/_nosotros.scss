@@ -1,0 +1,132 @@
+
+.nosotros-title{
+    color:black;
+    font-size: 5rem;
+    width: 40%;
+    margin-left: 40px;
+}
+.p-nosotros{
+    width: 150px;
+    padding: 30px;
+    margin:30px;
+    height: 270px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+}
+.flyer-info1{
+    background-color: #060630;
+    width:100%;
+    height: 35vh;
+    margin: 20px 0px;
+
+    .flyer-info{
+        font-size: 2.5rem;
+        color:white;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 25px;
+        padding:30px;
+        width:500px;
+    }
+}
+.p-comienzos{
+    width: 150px;
+    padding: 30px;
+    margin:30px;
+    height: 60vh;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+}
+.title-comienzo{
+    color:black;
+    font-size: 5rem;
+    text-align: right;
+}
+.servicios{
+    width:100%;
+    height: 60vh;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.377) );
+
+    .video-flyer{
+        width:100%;
+        height: 60vh;
+        position: absolute;
+        right: 0;
+        bottom:0;
+        z-index: -1;
+    }
+    .title-video{
+        position: absolute;
+        width: 40%;
+        top:0;
+        left:0;
+        color:white;
+        font-size: 3rem;
+        margin:40px;
+        padding: 20px 40px;
+    }
+}
+.p-equipo{
+    text-align: center;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 10px 50px;
+    font-family: "Roboto", sans-serif;
+}
+.img-equipo1{
+    width:360px;
+    height:310px;
+    background-image: url(../asetss/img/profesor3.jpg);
+    background-position: center;
+    background-size: cover;
+    margin:10px;
+}
+.img-equipo2{
+    width:360px;
+    height:310px;
+    background-image: url(../asetss/img/profesor-2\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    margin:10px;
+}
+.img-equipo3{
+    width:360px;
+    height:310px;
+    background-image: url(../asetss/img/profesor1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin:10px;
+}
+.img-equipo4{
+    width:360px;
+    height:310px;
+    background-image: url(../asetss/img/profesor4.jpg);
+    background-position: center;
+    background-size: cover;
+    margin:10px;
+}
+.btn-servicios{
+    border: 1px solid #060630;
+    padding: 10px 30px;
+    text-decoration: none;
+    color:#060630;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+
+    &:hover{
+        background-color:#060630;
+        color:white;
+        font-weight: 300;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+}
