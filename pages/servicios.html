@@ -13,12 +13,14 @@
     <link rel="shortcut icon" href="../asetss/img/logo.jpg" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/91df28c222.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lilita+One&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <body>
     <header class="portada-nosotros d-flex justify-content-center align-items-center">
         <nav>
-            <ul class="d-flex justify-content-evenly align-items-center">
+            <ul class="d-flex justify-content-evenly align-items-center animate__animated animate__fadeInDown">
                 <li class="text-uppercase nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
                 <li class="text-uppercase nav-item "><a href="./nosotros.html" class="nav-link">Nosotros</a></li>
                 <li class="text-uppercase pt-2 nav-item logo"><a href="../index.html" class="nav-link d-flex justify-content-center align-items-center flex-column"><span class="logo-grande p-0 m-0"> DBC</span> <span class="letra-chica"> devoto boxing club</span></a></li>
@@ -26,30 +28,33 @@
                 <li class="text-uppercase nav-item"><a href="./contacto.html" class="nav-link">Contacto</a></li>
             </ul>    
             </nav>
+            
 
     </header>
     <main>
-        <div class="text-center pt-3 mt-5">
+        <div class="text-center pt-3 mt-5 ">
             <p class="text-introduccion text-uppercase">En Devoto Boxing Club</p>
-            <h1 class="text-uppercase title-servicios">Te ayudamos a <span class="text-color"> mejorar</span> tu <br> calidad de vida.</h1>
+            <h1 class="text-uppercase title-servicios animate__animated animate__backInDown animate__slow">Te ayudamos a <span class="text-color"> mejorar</span> tu <br> calidad de vida.</h1>
+        <!--  <div class="m-5 mt-2 mb-4">
             <p class="text-servicios">Ofrecemos una amplia gama de servicios diseñados para satisfacer las necesidades de todos los entusiastas del boxeo, desde principiantes hasta profesionales. Nuestra misión es proporcionarte las herramientas, el entorno y el apoyo necesarios para que alcances tus objetivos personales y disfrutes de cada paso del camino. Con un equipo de entrenadores expertos y una infraestructura de primera clase, estamos aquí para ayudarte a dar lo mejor de vos en cada entrenamiento.</p>
-      
+      </div>-->  
         </div>
         <section class="container-fluid p-5">
         <div class="row d-flex justify-content-evenly align-items-center">
-            <div class="col">
-                <h2 class="title-boxeo2 text-uppercase">Boxeo Recreativo</h2>
+            <div class="col" data-aos="flip-up"  data-aos-duration="1000">
+                <h2 class="title-boxeo2 text-uppercase" >Boxeo <span class="text-blue">Recreativo</span> </h2>
                 <p class="p-boxeo">Excelente para mantenerte en forma y divertirte al mismo tiempo. Diseñado para todas las edades y niveles, este tipo de boxeo se enfoca en el <span class="fw-bold text-bold"> aprendizaje de técnicas básicas, combinadas con ejercicios cardiovasculares y de fuerza.</span> El boxeo recreativo no solo mejora tu condición física, sino también tu coordinación, agilidad y confianza.</p>
             </div>
-            <div class="col box-recreativo"></div>
+            <div class="col box-recreativo" data-aos="fade-up"  data-aos-duration="1000">
+            </div>
         </div>
     </section>
 
     <section class="container-fluid pt-0 p-5">
         <div class="row d-flex justify-content-evenly align-items-center">
-            <div class="col box-avanzado"></div>
-            <div class="col">
-                <h2 class="title-avanzado text-uppercase text-end">Boxeo Avanzado</h2>
+            <div class="col box-avanzado" data-aos="fade-down"  data-aos-duration="1000"></div>
+            <div class="col" data-aos="flip-down"  data-aos-duration="1000">
+                <h2 class="title-avanzado text-uppercase text-end" >Boxeo <span class="text-blue">Avanzado</span></h2>
                 <p class="p-boxeo">Diseñado para aquellos
                     que buscan <span class="text-subrayado"> perfeccionar técnicas, mejorar la estrategia de combate y desarrollar una mayor 
                     resistencia física y mental. </span>Bajo la guía de entrenadores altamente calificados, los participantes se 
@@ -61,40 +66,44 @@
     </section>
 
    <section class="flyer-nosotros d-flex justify-content-evenly align-items-center">
-            <div class="flyer-nosotros1">
-            <h4 class="title-nosotros1"><i class="fas fa-check"></i>Equipamentos de calidad</h4>
+            <div class="flyer-nosotros1" data-aos="zoom-in" data-aos-duration="1000" >
+            <i class="fa-solid fa-dumbbell icon-flyer"></i>
+                <h4 class="title-nosotros1">Equipamentos de calidad</h4>
+                </div>
+            <div class="flyer-nosotros1" data-aos="zoom-in" data-aos-duration="1000">
+                <i class="fa-regular fa-clock icon-flyer"></i> 
+                <h4 class="title-nosotros1">Flexibilidad horaria</h4>
             </div>
-            <div class="flyer-nosotros1">
-                <h4 class="title-nosotros1"><i class="fas fa-check"></i>Flexibilidad horaria</h4>
+            <div class="flyer-nosotros1" data-aos="zoom-in" data-aos-duration="1000">
+                <i class="fa-solid fa-user-check icon-flyer"></i>
+                <h4 class="title-nosotros1">Profesionales capacitados</h4>
             </div>
-            <div class="flyer-nosotros1">
-                <h4 class="title-nosotros1"><i class="fas fa-check"></i>Profesionales capacitados</h4>
-            </div>
-            <div class="flyer-nosotros1">
-                <h4 class="title-nosotros1"><i class="fas fa-check"></i> Asistencias & Certificaciones</h4>
+            <div class="flyer-nosotros1" data-aos="zoom-in" data-aos-duration="1000">
+                <i class="fa-solid fa-certificate icon-flyer"></i>
+                <h4 class="title-nosotros1">Asistencias & Certificaciones</h4>
             </div>
         </section> 
     </section>
 
     <section class="container-fluid  pt-3 p-5">
         <div class="row d-flex justify-content-evenly align-items-center">
-            <div class="col">
-                <h2 class="title-boxeo2 text-uppercase ">Boxeo Infantil</h2>
+            <div class="col"data-aos="flip-up"  data-aos-duration="1000">
+                <h2 class="title-boxeo2 text-uppercase ">Boxeo <span class="text-blue">Infantil</span> </h2>
                 <p class="p-boxeo ">Introducción a los más pequeños en el mundo del boxeo de una <span class="text-subrayado"> manera segura, divertida y educativa.</span>
                      A través de juegos y ejercicios adaptados a su edad, los niños aprenden las técnicas básicas del boxeo,
                       mejorando su coordinación, fuerza y disciplina. Con entrenadores 
                        experimentados y un ambiente seguro y positivo, el boxeo infantil es <span class="fw-bold text-bold"> ideal para que los chicos 
                        se diviertan mientras aprenden valores importantes.</span></p>
             </div>
-            <div class="col box-infantil"></div>
+            <div class="col box-infantil" data-aos="fade-up"  data-aos-duration="1000"></div>
         </div>
     </section>
 
     <section class="container-fluid  pt-0 p-5">
         <div class="row d-flex justify-content-evenly align-items-center">
-            <div class="col box-funcional"></div>
-            <div class="col">
-                <h2 class="title-funcional text-uppercase text-end">Entrenamiento funcional</h2>
+            <div class="col box-funcional" data-aos="fade-down"  data-aos-duration="1000"></div>
+            <div class="col" data-aos="flip-down"  data-aos-duration="1000">
+                <h2 class="title-funcional text-uppercase text-end" data-aos="flip-down"  data-aos-duration="1000">Entrenamiento <span class="text-blue">funcional</span> </h2>
                 <p class="p-boxeo m-4">En el Club de Boxeo Devoto este programa el cual está diseñado para mejorar tu fuerza, 
                     resistencia y acondicionamiento físico general a través de ejercicios variados y dinámicos. Es el complemento
                     perfecto para tu rutina de boxeo, <span class="text-subrayado"> ayudándote a alcanzar un rendimiento óptimo y un estado físico excepcional.</span></p>
@@ -103,7 +112,7 @@
     </section>
 
         <section class="container-fluid">
-            <h2 class="text-introduccion text-center text-uppercase fs-4 pt-4">Opiniones de nuestros clientes</h2>
+            <h2 class="text-introduccion text-center text-uppercase fs-4 pt-4" data-aos="fade-up"  data-aos-duration="1000">Opiniones de nuestros clientes</h2>
             <div class="d-flex justify-content-evenly align-items-center opinones-servicio">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -171,10 +180,9 @@
                 </div>
         </footer>
 </body>
-<script>
-    AOS.init();
-  </script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script> AOS.init();</script>
 <script src="https://kit.fontawesome.com/91df28c222.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>

@@ -22,17 +22,6 @@ nav{
                 border-bottom: 2px solid rgb(255, 0, 0);
                 padding-bottom: 5px;
             }
-}
-.logo-grande{
-    font-size: 3.5rem;
-    color:white;
-    list-style: none;
-}.letra-chica{
-    font-size: 0.6rem;
-    color:white;
-    letter-spacing: 1px;
-    list-style: none;
-    
 }}
 
 .text-color{
@@ -64,7 +53,17 @@ nav{
     background-position: center;
     background-size: cover;
 }
-
+.logo-grande{
+    font-size: 3.5rem;
+    color:white;
+    list-style: none;  
+}
+.letra-chica{
+    font-size: 0.6rem;
+    color:white;
+    letter-spacing: 1px;
+    list-style: none;
+}
 .footer{
     background-color:#060630;
     .lista-footer{
