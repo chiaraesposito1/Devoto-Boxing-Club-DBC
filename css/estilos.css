@@ -770,12 +770,12 @@ nav .nav-item:hover {
 
 .text-404 {
   letter-spacing: 1px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
+  padding: 20px 20px 5px;
 }
 
 .p-404 {
-  padding: 20px 20px 5px;
   letter-spacing: 1px;
   font-family: "Roboto", sans-serif;
 }
