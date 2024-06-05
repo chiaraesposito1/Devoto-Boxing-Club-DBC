@@ -130,13 +130,13 @@ nav .nav-item:hover {
 
 .portada {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.377));
   position: relative;
 }
 .portada video {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -160,13 +160,28 @@ nav .nav-item:hover {
 }
 .contenido .text-portada {
   width: 50%;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   letter-spacing: 1px;
   line-height: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 30px;
+  padding: 10px 0px 20px;
+}
+.contenido .btn-portada {
+  text-decoration: none;
+  color: #060630;
+  background-color: white;
+  padding: 5px 30px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.contenido .btn-portada:hover {
+  background-color: #060630;
+  color: white;
+  font-weight: 400;
 }
 
 .capa {
@@ -743,9 +758,20 @@ nav .nav-item:hover {
   color: white;
 }
 
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 200, "opsz" 24;
+  margin: 10px;
+}
+
 .title-404 {
   font-size: 5rem;
   letter-spacing: 1px;
+}
+
+.text-404 {
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .p-404 {
@@ -762,6 +788,10 @@ nav .nav-item:hover {
 }
 .link-404:hover {
   color: rgb(255, 0, 0);
+}
+.link-404 .arrow-icon {
+  width: 50px;
+  height: 50px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
