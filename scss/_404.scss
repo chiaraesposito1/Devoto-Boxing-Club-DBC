@@ -1,6 +1,21 @@
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 200,
+  'opsz' 24;
+  margin: 10px;
+}
+
 .title-404{
     font-size: 5rem;
     letter-spacing: 1px;
+}
+.text-404{
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
 }
 .p-404{
     padding:20px 20px 5px;
@@ -12,8 +27,11 @@
     list-style: none;
     color:black;
     font-size: 1.5rem;
-
     &:hover{
         color:rgb(255, 0, 0);
+    }
+    .arrow-icon{
+       width: 50px;
+       height: 50px;
     }
 }
