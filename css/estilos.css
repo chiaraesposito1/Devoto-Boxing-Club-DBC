@@ -195,17 +195,17 @@ nav .nav-item:hover {
   margin: 10px 10px 40px;
 }
 .nosotros .title-nosotros {
+  text-align: center;
   letter-spacing: 1px;
   color: rgb(0, 0, 0);
   font-size: 4rem;
-  width: 40%;
   padding: 10px 40px;
   margin-left: 20px;
 }
 .nosotros .col-texto {
   width: 150px;
   height: 270px;
-  margin: 10px 20px 40px 10px;
+  margin: 10px 40px;
 }
 .nosotros .col-texto .text-nosotros {
   letter-spacing: 1px;
@@ -218,8 +218,8 @@ nav .nav-item:hover {
 }
 
 .caja-boxeo {
-  margin: 60px 30px 30px;
-  padding: 60px 30px 30px;
+  margin: 20px 30px 30px;
+  padding: 20px 30px 30px;
 }
 .caja-boxeo .columna1 {
   width: 100px;
@@ -447,14 +447,16 @@ nav .nav-item:hover {
 .nosotros-title {
   color: black;
   font-size: 5rem;
-  width: 40%;
   margin-left: 40px;
+  text-align: center;
 }
-
+.caja-pNosotros{
+  display: flex;
+}
 .p-nosotros {
   width: 150px;
-  padding: 30px;
-  margin: 30px;
+  padding: 10px 30px 30px;
+  margin: 10px 30px 20px;
   height: 270px;
   font-size: 1rem;
   letter-spacing: 1px;
@@ -795,3 +797,552 @@ nav .nav-item:hover {
 }
 
 /*# sourceMappingURL=estilos.css.map */
+
+@media screen and (max-width:767px){
+  nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  nav .nav-item {
+    font-size: 0.9rem;
+    margin: 5px;
+  }
+  
+  .text-introduccion {
+    padding: 0px 20px;
+    margin-left: 10px;
+    font-size: 0.66rem;
+  }
+  
+  .text-subrayado {
+    border-bottom: 1px solid red;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 3px;
+    letter-spacing: 1px;
+  }
+  
+
+  .portada-nosotros {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.418)), url(../asetss/img/portada-guantes.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .logo-grande {
+    font-size: 2rem;
+    color: white;
+    list-style: none;
+  }
+  
+  .letra-chica {
+    font-size: 0.6rem;
+    color: white;
+    letter-spacing: 1px;
+    list-style: none;
+  }
+  
+  .footer .lista-footer {
+    font-size: 1rem;
+    padding: 10px 5px;
+  }
+  .footer a {
+    font-size: 1rem;
+  }
+  .footer li {
+    padding-bottom: 10px;
+  }
+  .footer .icon {
+    font-size: 1rem;
+  }
+  
+  .portada {
+    height: 80vh;
+  }
+  .portada video {
+    height: 80vh;
+  }
+  .contenido {
+    padding-left: 20px;
+  }
+  .contenido .title-portada {
+    width: 50%;
+    font-size: 2.5rem;
+    padding-top: 0px;
+  }
+  .contenido .text-portada {
+    width: 80%;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  .contenido .btn-portada {
+    padding: 5px 40px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .capa {
+    height: 80vh;
+  }
+  
+  .nosotros {
+    padding: 20px 5px;
+    margin: 0px 5px;
+    text-align: center;
+  }
+  .caja-textoPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .nosotros .title-nosotros {
+    font-size: 2.5rem;
+    width: 100%;
+    padding: 10px 20px;
+    margin-left: 10px;
+  }
+  .nosotros .col-texto {
+    width: 100%;
+    height: 520px;
+    margin: 10px 20px 20px 10px;
+  }
+  .nosotros .col-texto .text-nosotros {
+    line-height: 25px;
+    text-align: justify;
+  }
+  
+  .caja-boxeo {
+    margin: 60px 30px 30px;
+    padding: 60px 30px 30px;
+  }
+  .caja-boxeo .columna1 {
+    height: 270px;
+    object-fit: cover;
+    background-size: 150% 100% ;
+    margin: 10px 10px 20px 50px;
+  }
+  .caja-boxeo .columna2 {
+    height: 270px;
+    object-fit: cover;
+    margin: 10px 50px 20px 10px;
+  }
+  .caja-boxeo .columna3 {
+    height: 270px;
+    object-fit: cover;
+    background-size: 150% 100% ;
+    background-position: center;
+    margin: 10px 10px 30px 50px;
+  }
+  .caja-boxeo .columna4 {
+    height: 270px;
+    object-fit: cover;
+    background-size: 170% 100% ;
+    margin: 10px 50px 30px 10px;
+  }
+  .caja-boxeo .title-boxeo {
+    font-size: 1.5rem;
+    transform: translateY(640%);
+    margin: 0px 20px;
+  }
+  .caja-boxeo .line {
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    transform: translateY(110%);
+  }
+  .caja-valores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .valores {
+    padding: 0px 10px;
+    margin: 10px 20px;
+    width: 180px;
+  }
+  .valores .icon-valores {
+    width: 80px;
+    height: 80px;
+  }
+  .valores .title-valores {
+    font-size: 1.3rem;
+  }
+  .valores .texto-valores {
+    font-size: 0.6rem;
+    line-height: 15px;
+  }
+  
+  .flyer {
+    height: 55vh;
+    object-fit: cover;
+    width: 100%;
+    margin: 80px 0 30px;
+  }
+  .flyer .fondo-blur {
+    width: 60%;
+    height: 55vh;
+  }
+  .flyer .title-flyer {
+    font-size: 2.5rem;
+    width: 90%;
+    letter-spacing: 1px;
+    color: white;
+    padding: 40px 20px 10px;
+    margin: 30px;
+  }
+  .flyer .btn-flyer {
+    margin: 0px;
+    padding: 10px 30px;
+    width: 100%;
+  }
+  .flyer .btn-flyer:hover {
+    background-color: white;
+    color: rgb(6, 6, 48);
+    font-weight: 600;
+  }
+  
+  .galeria {
+    margin: 20px;
+    padding-top: 30px;
+  }
+  .galeria .img-galeria {
+    width: 250px;
+    height: 180px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .galeria .btn-galeria {
+    padding: 6px 30px;
+  }
+
+  .linea {
+    margin-left: 0px;
+    height: 42vh;
+  }
+  .valores2 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .valores2 .title-valores2 {
+    width: 250px;
+    font-size: 1.3rem;
+  }
+  .valores2 .title-valores2 .icon-valores2 {
+    width: 70px;
+    height: 70px;
+    margin: 0px 20px 0px 20px;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .flyer2 {
+    height: 70vh;
+    width: 100%;
+    margin: 20px 0 30px;
+  }
+  .flyer2 .fondo-blur2 {
+    width: 50%;
+    height: 70vh;
+  }
+  .flyer2 .fondo-blur2 .title-flyer2 {
+    font-size: 2.5rem;
+    width: 90%;
+    padding: 20px;
+  }
+  .flyer2 .fondo-blur2 .text-flyer2 {
+    font-size: 1.1rem;
+    margin: 0px 20px;
+    width: 100%;
+  }
+  
+  .title-contacto {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  .text-contacto {
+    padding-top: 0px;
+  }
+  iframe{
+    text-align: center;
+    width: 500px;
+    height: 300px;
+  }
+  
+  .nosotros-title {
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .caja-pNosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .p-nosotros {
+    width: 400px;
+    padding: 0px;
+    margin: 20px;
+    height: 110vh;
+    font-size: 1rem;
+  }
+  
+  .flyer-info1 {
+    background-color: #060630;
+    width: 100%;
+    height: 35vh;
+    margin: 20px 0px;
+  }
+  .flyer-info1 .flyer-info {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 30px;
+    width: 500px;
+  }
+  .cajaComienzos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .p-comienzos {
+    width: 0px;
+    padding: 0px;
+    margin: 0px;
+    height: 70vh;
+    font-size: 1rem;
+  }
+  
+  .title-comienzo {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .servicios {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.377));
+  }
+  .servicios .video-flyer {
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .servicios .title-video {
+    width: 50%;
+    font-size: 2.5rem;
+    margin: 20px;
+    padding: 20px ;
+  }
+  
+  .p-equipo {
+    padding: 10px;
+  }
+  
+  .img-equipo1 {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+  }
+  
+  .img-equipo2 {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+  }
+  
+  .img-equipo3 {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+  }
+  
+  .img-equipo4 {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+  }
+  
+  .btn-servicios {
+    padding: 8px 40px;
+  }
+  .title-servicios {
+    font-size: 2.5rem;
+    width: 100%;
+    padding: 0px ;
+    margin: 0px;
+  }
+  
+  .text-servicios {
+    color: rgba(0, 0, 0, 0.836);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 10px 30px;
+    padding: 10px 30px;
+    font-size: 1rem;
+  }
+  
+  .title-boxeo2 {
+    font-size: 2.3rem;
+    margin: 10px 0px;
+    width: 40%;
+    padding: 0px 0px;
+  }
+  
+  .p-boxeo {
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px 0px;
+  }
+  
+  .box-recreativo {
+    width: 180px;
+    height: 400px;
+    margin: 30px;
+  }
+  
+  .box-avanzado {
+    width: 180px;
+    height: 400px;
+    margin: 30px;
+  }
+  
+  .title-avanzado {
+    font-size: 2.3rem;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 20px 0px 0px;
+  }
+  
+  .box-infantil {
+    width: 20px;
+    height: 450px;
+    margin: 30px;
+    background-size: 190% 100%;
+  }
+  
+  .box-funcional {
+    width: 180px;
+    height: 400px;
+    margin: 30px;
+  }
+  
+  .title-funcional {
+    font-size: 2.3rem;
+    width: 100%;
+  }
+  
+  
+  .flyer-nosotros {
+    height: 30vh;
+  }
+  .flyer-nosotros .flyer-nosotros1 .title-nosotros1 {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  
+  .icon-flyer {
+    font-size: 2.5rem;
+  }
+  .carousel-inner {
+    width: 200px;
+    height: 100vh;
+  }
+  .carousel-inner .opinion {
+    width: 200px;
+    height: 90vh;
+    margin: 0px;
+  }
+  .carousel-inner .opinion .p-opinion {
+    margin: 20px;
+    padding: 10px;
+  }
+  .carousel-inner .opinion .nombre-opinion {
+    font-size: 1.3rem;
+  }
+  
+  .columna-contacto1 {
+    width: 600px;
+  }
+  .columna-contacto1 .p-contacto {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    line-height: 25px;
+    padding: 10px 0px;
+  }
+  
+  .columna-contacto {
+    width: 300px;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.705)), url(../asetss/img/map.png);
+    margin: 40px;
+    padding-left: 30px;
+  }
+  .columna-contacto li {
+    list-style: none;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .columna-contacto h2 {
+    color: white;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 200, "opsz" 24;
+    margin: 10px;
+  }
+  
+  .title-404 {
+    font-size: 5rem;
+    letter-spacing: 1px;
+  }
+  
+  .text-404 {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    padding: 20px 20px 5px;
+  }
+  
+  .p-404 {
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .link-404 {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 1.5rem;
+  }
+  .link-404:hover {
+    color: rgb(255, 0, 0);
+  }
+  .link-404 .arrow-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width:1023px){}
