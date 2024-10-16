@@ -912,7 +912,7 @@ nav .nav-item:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
   }
   .caja-boxeo .columna1 {
@@ -933,7 +933,7 @@ nav .nav-item:hover {
     width: 100%;
     height: 270px;
     object-fit: cover;
-    background-size: 100% 100% ;
+    background-size: 150% 100% ;
     margin: 20px;
   }
   .caja-boxeo .columna4 {
@@ -963,7 +963,7 @@ nav .nav-item:hover {
   .valores {
     padding: 0px 5px;
     margin: 0px 10px;
-    width: 100px;
+    width: 120px;
   }
   .valores .icon-valores {
     width: 70px;
@@ -1027,13 +1027,17 @@ nav .nav-item:hover {
     height: 42vh;
   }
   .valores2 {
-    padding: 10px;
+    padding: 5px;
     display: flex;
     flex-wrap: wrap;
   }
   .valores2 .title-valores2 {
-    width: 250px;
-    font-size: 1.3rem;
+    width: 200px;
+    font-size: 1rem;
+  }
+  .valores2 .resume {
+    width: 160px;
+    font-size: 1rem;
   }
   .valores2 .title-valores2 .icon-valores2 {
     width: 70px;
